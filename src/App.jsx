@@ -7,6 +7,7 @@ import MenuPage from './pages/MenuPage';
 import AboutPage from './pages/AboutPage';
 import GalleryPage from './pages/GalleryPage';
 import ReservePage from './pages/ReservePage';
+import AdminPage from './pages/AdminPage';
 
 // Scroll to top on page change
 const ScrollToTop = () => {
@@ -34,6 +35,7 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/reserve" element={<ReservePage />} />
+              <Route path="/admin" element={<AdminPage />} />
             </Routes>
           </main>
         </div>

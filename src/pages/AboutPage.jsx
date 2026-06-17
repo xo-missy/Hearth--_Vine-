@@ -39,7 +39,7 @@ const AboutPage = () => {
               The Genesis of Our Fire
             </h2>
             <p>
-              Hearth & Vine was conceptualized in 2024 by culinary director Evelyn Vance and a small collective of artists, sommeliers, and agriculturalists. Our goal was simple: to strip away the complex, clinical clutter of molecular dining and return to the primary elements that define human culinary history: fire, iron, clay, and wood.
+              Hearth & Vine was conceptualized in 2024 by visionary Chef-Owner Oladipo Twinee and a small collective of artists, sommeliers, and agriculturalists. Our goal was simple: to strip away the complex, clinical clutter of molecular dining and return to the primary elements that define human culinary history: fire, iron, clay, and wood.
             </p>
             <p>
               At the center of our open dining room sits our custom-built hearth. Made from local refractory brick and fueled by select hardwoods, the hearth burns continuously. We use Nigerian cherrywood, cashew wood, and local oak to smoke, sear, and braise. Every piece of wood is selected for the specific temperature range it reaches and the distinct, subtle oil perfume it releases into the meat and seafood.
@@ -57,7 +57,7 @@ const AboutPage = () => {
               West African Spices, European Structure
             </h2>
             <p>
-              Technique is our tool, but memory is our chef. Evelyn Vance combines her Michelin training in London and Paris with the ancestral flavor registers of West Africa. We do not dilute spices; we refine their presentation.
+              Technique is our tool, but memory is our chef. Oladipo Twinee combines global culinary discipline with the ancestral flavor registers of West Africa. We do not dilute spices; we refine their presentation.
             </p>
             <p>
               The fiery warmth of yaji (Hausa suya rub) is applied to premium marbled Wagyu; the deep, fermented umami of iru (locust bean oil) is used as an oil emulsion under pan-seared Chilean sea bass; the tart, floral brightness of zobo (hibiscus) is reduced into a rich port wine glaze for roasted duck breast. The result is a dining experience that feels both completely new and ancient.
@@ -76,14 +76,14 @@ const AboutPage = () => {
               <div className="absolute inset-0 border border-accent/20 translate-x-3 translate-y-3 pointer-events-none" />
               <div className="aspect-[4/5] overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=800" 
-                  alt="Chef Evelyn Vance"
+                  src="/chef_oladipo.png" 
+                  alt="Chef Oladipo Twinee"
                   className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
                 />
               </div>
               <div className="bg-surface p-4 border border-cream/10 mt-3">
-                <span className="font-playfair text-sm font-bold block text-cream">Chef Evelyn Vance</span>
-                <span className="font-cormorant italic text-xs text-accent uppercase tracking-widest mt-0.5 block">Founding Culinary Director</span>
+                <span className="font-playfair text-sm font-bold block text-cream">Chef Oladipo Twinee</span>
+                <span className="font-cormorant italic text-xs text-accent uppercase tracking-widest mt-0.5 block">Founding Chef & Owner</span>
               </div>
             </div>
 

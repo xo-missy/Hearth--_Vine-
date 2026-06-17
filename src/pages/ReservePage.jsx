@@ -47,6 +47,32 @@ const ReservePage = () => {
     }
     // Generate mock reservation code
     const randCode = 'HV-' + Math.floor(100000 + Math.random() * 900000);
+    
+    // Save to localStorage
+    const newReservation = {
+      bookingRef: randCode,
+      name: formData.name,
+      email: formData.email,
+      date: formData.date,
+      time: formData.time,
+      guests: formData.guests,
+      specialRequest: formData.specialRequest || '',
+      tableId: selectedTable.id,
+      tableName: selectedTable.name,
+      tableType: selectedTable.type,
+      status: 'Confirmed',
+      createdAt: new Date().toISOString()
+    };
+
+    try {
+      const existing = localStorage.getItem('hearth_vine_reservations');
+      const list = existing ? JSON.parse(existing) : [];
+      list.push(newReservation);
+      localStorage.setItem('hearth_vine_reservations', JSON.stringify(list));
+    } catch (err) {
+      console.error('Error saving reservation to localStorage:', err);
+    }
+
     setBookingRef(randCode);
     setIsBooked(true);
   };

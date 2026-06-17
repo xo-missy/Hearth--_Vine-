@@ -24,15 +24,15 @@ const Chef = () => {
               className="relative aspect-[3/4] overflow-hidden"
             >
               <img 
-                src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=800" 
-                alt="Head Chef Evelyn Vance"
+                src="/chef_oladipo.png" 
+                alt="Head Chef & Owner Oladipo Twinee"
                 className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700 ease-out"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 text-cream">
-                <span className="font-playfair text-xl font-bold block">Evelyn Vance</span>
-                <span className="font-cormorant italic text-sm text-accent tracking-widest uppercase mt-0.5 block">Culinary Director</span>
+                <span className="font-playfair text-xl font-bold block">Oladipo Twinee</span>
+                <span className="font-cormorant italic text-sm text-accent tracking-widest uppercase mt-0.5 block">Chef & Owner</span>
               </div>
             </motion.div>
           </div>
@@ -73,7 +73,7 @@ const Chef = () => {
               className="space-y-4 font-inter text-cream/70 text-sm md:text-base leading-relaxed font-light"
             >
               <p>
-                Chef Evelyn Vance’s journey began in the vibrant market centers of West Africa, before taking her to Michelin-starred kitchens across London and Paris. Hearth & Vine is the culmination of her dual identity.
+                Chef-Owner Oladipo Twinee’s culinary journey is rooted in a deep reverence for ancestral wood-fire cooking, refined through years of mastering smoke-craft and global gastronomy. Hearth & Vine is his personal sanctuary, where heritage meets high artistry.
               </p>
               <p>
                 &ldquo;Every ingredient tells a story. When we grill fresh local Lagos seafood over wood embers, or finish a slow-cooked goat shoulder with suya yaji, we are connecting ancestral grilling methods with contemporary gastronomy. It is a dialogue between smoke and the vine, fire and wine.&rdquo;

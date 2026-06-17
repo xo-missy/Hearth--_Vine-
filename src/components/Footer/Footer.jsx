@@ -137,7 +137,13 @@ const Footer = () => {
 
         {/* Footer Bottom copyright */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 text-xs text-cream/50 tracking-widest uppercase space-y-4 md:space-y-0">
-          <span>&copy; {new Date().getFullYear()} Hearth & Vine. All rights reserved.</span>
+          <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
+            <span>&copy; {new Date().getFullYear()} Hearth & Vine. All rights reserved.</span>
+            <span className="hidden sm:inline text-cream/30">|</span>
+            <Link to="/admin" className="hover:text-accent transition-colors duration-300 normal-case font-normal">
+              Owner Portal
+            </Link>
+          </div>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-cream transition-colors duration-300">Privacy Policy</a>
             <a href="#" className="hover:text-cream transition-colors duration-300">Terms of Service</a>
